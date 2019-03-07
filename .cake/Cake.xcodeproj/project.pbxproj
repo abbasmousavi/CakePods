@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+27CCC44DFA86333E66FEE34EA8063784 /* Versionator */ = {
+	isa = PBXAggregateTarget;
+	buildPhases = (
+		B0CCAA5D1D192F6963E1F5560239A386 /* Determine Version */,
+	);
+	dependencies = (
+	);
+	name = Versionator;
+};
+818A4854C95B333066E8C4A9D0FE3104 /* Cakefile */ = {
+	isa = PBXAggregateTarget;
+	buildConfigurationList = FB1419C517BF03EBE4B57BA190D11DA2 /* Build configuration list for PBXAggregateTarget "Cakefile" */;
+	buildPhases = (
+		6F67EDB0066A07EA8ACEC9D4D60F4E3F /* Regenerate Cake.xcodeproj */,
+	);
+	dependencies = (
+	);
+	name = Cakefile;
+};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+02A46975791D4B6AF393E02BFC7B4FA7 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F867ED701FF56BC9AA1829B4888F2F /* Cake.swift */; };
+5633CA07142F6FC4A6C648E4C90225ED /* Batter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F573D976FA9A0403F17F22F1A4DAA55 /* Batter.a */; };
+56DFD2E22C495FA82E39886F365DC33A /* Cakefile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD6BC9A2C80C818AD36364182F42223 /* Cakefile.swift */; };
+6A041CF38BC28A5262F4A2C130435DA8 /* Batter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D33FD3DDE7FE2483580EF428D7DE21 /* Batter.swift */; };
+A02D2E744FFFFEC9F988F50EBF4D6884 /* Bakeware.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E552F04C4283E1A0D894B7F025D7B6 /* Bakeware.a */; };
+D7B65D75894927076AFE39402F291160 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A1C068546363D594DCC9B96B41206A /* Foo.swift */; };
+E82A2DDD9A8F30252C5CF0ECB0B75B5B /* Bar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 009D7F3E1841E1DE26404E5AB465CD76 /* Bar.a */; };
+F62F83ADADB25FD51189D1DAADF508A0 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFD179966269FDE38CD11CAF3C4E5C /* Base.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+1433A103D3787DDCA73013B05C6230DC /* PBXContainerItemProxy */ = {
+	isa = PBXContainerItemProxy;
+	containerPortal = DAA9F9B983CE55D38B2F125BAD56FC0E /* Project object */;
+	proxyType = 1;
+	remoteGlobalIDString = 818A4854C95B333066E8C4A9D0FE3104;
+	remoteInfo = Cakefile;
+};
+47DED4C504B4975EA75FEBB71CD945AC /* PBXContainerItemProxy */ = {
+	isa = PBXContainerItemProxy;
+	containerPortal = DAA9F9B983CE55D38B2F125BAD56FC0E /* Project object */;
+	proxyType = 1;
+	remoteGlobalIDString = 7E9BC1BE492C7CB96A7537F0974F24C4;
+	remoteInfo = "Batter·Bar";
+};
+756891CE29B59469D117CB86600830B4 /* PBXContainerItemProxy */ = {
+	isa = PBXContainerItemProxy;
+	containerPortal = DAA9F9B983CE55D38B2F125BAD56FC0E /* Project object */;
+	proxyType = 1;
+	remoteGlobalIDString = F5D94DE7A2DF28D8FD6E0C310044455E;
+	remoteInfo = Batter;
+};
+DDC422CFA96DC602F1758690E2D392B8 /* PBXContainerItemProxy */ = {
+	isa = PBXContainerItemProxy;
+	containerPortal = DAA9F9B983CE55D38B2F125BAD56FC0E /* Project object */;
+	proxyType = 1;
+	remoteGlobalIDString = A54CE7F62F35E2AB6B8CD4751BF034E0;
+	remoteInfo = "Batter·Bakeware";
+};
+F312C1044F70834D556FB7F4802D1893 /* PBXContainerItemProxy */ = {
+	isa = PBXContainerItemProxy;
+	containerPortal = DAA9F9B983CE55D38B2F125BAD56FC0E /* Project object */;
+	proxyType = 1;
+	remoteGlobalIDString = 27CCC44DFA86333E66FEE34EA8063784;
+	remoteInfo = Versionator;
+};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+009D7F3E1841E1DE26404E5AB465CD76 /* Bar.a */ = {isa = PBXFileReference; path = Bar.a; sourceTree = "<group>"; };
+05D33FD3DDE7FE2483580EF428D7DE21 /* Batter.swift */ = {isa = PBXFileReference; path = Batter.swift; sourceTree = "<group>"; };
+3F573D976FA9A0403F17F22F1A4DAA55 /* Batter.a */ = {isa = PBXFileReference; path = Batter.a; sourceTree = "<group>"; };
+43F867ED701FF56BC9AA1829B4888F2F /* Cake.swift */ = {isa = PBXFileReference; path = Cake.swift; sourceTree = "<group>"; };
+5EAFD179966269FDE38CD11CAF3C4E5C /* Base.swift */ = {isa = PBXFileReference; path = Base.swift; sourceTree = "<group>"; };
+75E552F04C4283E1A0D894B7F025D7B6 /* Bakeware.a */ = {isa = PBXFileReference; path = Bakeware.a; sourceTree = "<group>"; };
+79A1C068546363D594DCC9B96B41206A /* Foo.swift */ = {isa = PBXFileReference; path = Foo.swift; sourceTree = "<group>"; };
+9DD6BC9A2C80C818AD36364182F42223 /* Cakefile.swift */ = {isa = PBXFileReference; name = Cakefile.swift; path = ../Cakefile.swift; sourceTree = "<group>"; };
+A4B1E5C1B830E94800A96F72DE371A05 /* Cake.a */ = {isa = PBXFileReference; path = Cake.a; sourceTree = "<group>"; };
+B3CDEF324226D91C75D2BCBA3E3D7952 /* Cakefile·Completion */ = {isa = PBXFileReference; path = "Cakefile·Completion"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+0B026A614C2516F4FCE621E12A0C2BBD /* Frameworks */ = {
+	isa = PBXFrameworksBuildPhase;
+	buildActionMask = 2147483647;
+	files = (
+		5633CA07142F6FC4A6C648E4C90225ED /* Batter.a in Frameworks */,
+	);
+	runOnlyForDeploymentPostprocessing = 0;
+};
+B48E25CDFE3DC639D59FCE85ECC280D9 /* Frameworks */ = {
+	isa = PBXFrameworksBuildPhase;
+	buildActionMask = 2147483647;
+	files = (
+		E82A2DDD9A8F30252C5CF0ECB0B75B5B /* Bar.a in Frameworks */,
+		A02D2E744FFFFEC9F988F50EBF4D6884 /* Bakeware.a in Frameworks */,
+	);
+	runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+0A53527E94D72639E875E683027BE3B5 /* Bar */ = {
+	isa = PBXGroup;
+	children = (
+		79A1C068546363D594DCC9B96B41206A /* Foo.swift */,
+	);
+	name = Bar;
+	path = Bar;
+	sourceTree = "<group>";
+};
+1717C67F49587A83891553ABA9B0E3CD /* Kitchenware */ = {
+	isa = PBXGroup;
+	children = (
+		05D33FD3DDE7FE2483580EF428D7DE21 /* Batter.swift */,
+		43F867ED701FF56BC9AA1829B4888F2F /* Cake.swift */,
+	);
+	name = Kitchenware;
+	path = "";
+	sourceTree = "<group>";
+};
+1C4FCF6098FC3226B2546E8140B7A700 /* Products */ = {
+	isa = PBXGroup;
+	children = (
+		B3CDEF324226D91C75D2BCBA3E3D7952 /* Cakefile·Completion */,
+		009D7F3E1841E1DE26404E5AB465CD76 /* Bar.a */,
+		75E552F04C4283E1A0D894B7F025D7B6 /* Bakeware.a */,
+		3F573D976FA9A0403F17F22F1A4DAA55 /* Batter.a */,
+		A4B1E5C1B830E94800A96F72DE371A05 /* Cake.a */,
+	);
+	name = Products;
+	sourceTree = "<group>";
+};
+50DCC4186C454A8A35C359EBE7E6484B /*  */ = {
+	isa = PBXGroup;
+	children = (
+		9DD6BC9A2C80C818AD36364182F42223 /* Cakefile.swift */,
+		A954EB6899ABE9AAB9499DFC4B34F9A5 /* Batter */,
+		1717C67F49587A83891553ABA9B0E3CD /* Kitchenware */,
+		1C4FCF6098FC3226B2546E8140B7A700 /* Products */,
+	);
+	path = "";
+	sourceTree = SOURCE_ROOT;
+};
+70A055EBBB9A9FC12342D9A6E40455F0 /* Bakeware */ = {
+	isa = PBXGroup;
+	children = (
+		5EAFD179966269FDE38CD11CAF3C4E5C /* Base.swift */,
+	);
+	name = Bakeware;
+	path = "";
+	sourceTree = "<group>";
+};
+A954EB6899ABE9AAB9499DFC4B34F9A5 /* Batter */ = {
+	isa = PBXGroup;
+	children = (
+		0A53527E94D72639E875E683027BE3B5 /* Bar */,
+		70A055EBBB9A9FC12342D9A6E40455F0 /* Bakeware */,
+	);
+	name = Batter;
+	path = ../Sources/Model;
+	sourceTree = "<group>";
+};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+7E9BC1BE492C7CB96A7537F0974F24C4 /* Batter·Bar */ = {
+	isa = PBXNativeTarget;
+	buildConfigurationList = F22CC39916A066C6C8B1ECE372A56745 /* Build configuration list for PBXNativeTarget "Batter·Bar" */;
+	buildPhases = (
+		86C92547D90D6B0C6402CF6C64B95207 /* Sources */,
+	);
+	buildRules = (
+	);
+	dependencies = (
+		3DE1E19BE239D595351ADC161F5E0410 /* PBXTargetDependency */,
+	);
+	name = "Batter·Bar";
+	productName = Bar;
+	productReference = 009D7F3E1841E1DE26404E5AB465CD76 /* Bar.a */;
+	productType = "com.apple.product-type.library.static";
+};
+8B942976617019A6C464818315598CC1 /* Cake */ = {
+	isa = PBXNativeTarget;
+	buildPhases = (
+		9D57241684611D5226E52EBD3A97727C /* Sources */,
+		0B026A614C2516F4FCE621E12A0C2BBD /* Frameworks */,
+	);
+	buildRules = (
+	);
+	dependencies = (
+		CB56305824BFCA6B67740F6043A4B9E2 /* PBXTargetDependency */,
+		3366830391752771A1D8AFE2C77B8DC4 /* PBXTargetDependency */,
+	);
+	name = Cake;
+	productReference = A4B1E5C1B830E94800A96F72DE371A05 /* Cake.a */;
+	productType = "com.apple.product-type.library.static";
+};
+A54CE7F62F35E2AB6B8CD4751BF034E0 /* Batter·Bakeware */ = {
+	isa = PBXNativeTarget;
+	buildConfigurationList = E0F10CB5FB220A409F0B4195E6AAF020 /* Build configuration list for PBXNativeTarget "Batter·Bakeware" */;
+	buildPhases = (
+		A5B608800EDF31C9BCB0DDC70CABA40D /* Sources */,
+	);
+	buildRules = (
+	);
+	dependencies = (
+		B08CB108B3829CEB56F206FF9312F38B /* PBXTargetDependency */,
+	);
+	name = "Batter·Bakeware";
+	productName = Bakeware;
+	productReference = 75E552F04C4283E1A0D894B7F025D7B6 /* Bakeware.a */;
+	productType = "com.apple.product-type.library.static";
+};
+B03189C2563DE1C075659DC03EF81210 /* Cakefile·Completion */ = {
+	isa = PBXNativeTarget;
+	buildConfigurationList = 3A3934967D7790F017425C98A64CD375 /* Build configuration list for PBXNativeTarget "Cakefile·Completion" */;
+	buildPhases = (
+		A55DDFC1E192780D65C32457CB5F07F8 /* Sources */,
+	);
+	buildRules = (
+	);
+	dependencies = (
+	);
+	name = "Cakefile·Completion";
+	productReference = B3CDEF324226D91C75D2BCBA3E3D7952 /* Cakefile·Completion */;
+	productType = "com.apple.product-type.tool";
+};
+F5D94DE7A2DF28D8FD6E0C310044455E /* Batter */ = {
+	isa = PBXNativeTarget;
+	buildPhases = (
+		B48E25CDFE3DC639D59FCE85ECC280D9 /* Frameworks */,
+		86204B913285479790C8B40218A6D01E /* Sources */,
+	);
+	buildRules = (
+	);
+	dependencies = (
+		A8CC1976609BCEA95BCD6964C14D8FAD /* PBXTargetDependency */,
+	);
+	name = Batter;
+	productReference = 3F573D976FA9A0403F17F22F1A4DAA55 /* Batter.a */;
+	productType = "com.apple.product-type.library.static";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+DAA9F9B983CE55D38B2F125BAD56FC0E /* Project object */ = {
+	isa = PBXProject;
+	attributes = {
+	};
+	buildConfigurationList = E7FAEEC4302D535402308E4CA6048DBC /* Build configuration list for PBXProject "Cake" */;
+	compatibilityVersion = "Xcode 9.3";
+	hasScannedForEncodings = 0;
+	mainGroup = 50DCC4186C454A8A35C359EBE7E6484B /*  */;
+	productRefGroup = 1C4FCF6098FC3226B2546E8140B7A700 /* Products */;
+	projectDirPath = "";
+	projectRoot = "";
+	targets = (
+		818A4854C95B333066E8C4A9D0FE3104 /* Cakefile */,
+		B03189C2563DE1C075659DC03EF81210 /* Cakefile·Completion */,
+		7E9BC1BE492C7CB96A7537F0974F24C4 /* Batter·Bar */,
+		A54CE7F62F35E2AB6B8CD4751BF034E0 /* Batter·Bakeware */,
+		F5D94DE7A2DF28D8FD6E0C310044455E /* Batter */,
+		27CCC44DFA86333E66FEE34EA8063784 /* Versionator */,
+		8B942976617019A6C464818315598CC1 /* Cake */,
+	);
+};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+6F67EDB0066A07EA8ACEC9D4D60F4E3F /* Regenerate Cake.xcodeproj */ = {
+	isa = PBXShellScriptBuildPhase;
+	buildActionMask = 2147483647;
+	files = (
+	);
+	inputPaths = (
+		"$(PROJECT_DIR)/../Cakefile.swift",
+	);
+	name = "Regenerate Cake.xcodeproj";
+	outputPaths = (
+		"$(PROJECT_DIR)/Cakefile.json",
+		"$(PROJECT_DIR)/Dependencies.json",
+	);
+	runOnlyForDeploymentPostprocessing = 0;
+	shellPath = "$(DT_TOOLCHAIN_DIR)/usr/bin/swift";
+	shellScript = "import func Darwin.fputs\nimport var Darwin.stderr\nimport ScriptingBridge\nimport AppKit\n\nfunc print(_ objs: Any...) {\n    let str = objs.reduce(into: \"\") { $0.append(\" \\($1)\") }\n    fputs(str, stderr)\n}\n\nlet apps = NSRunningApplication.runningApplications(withBundleIdentifier: \"dev.mxcl.Cake\")\n\nswitch apps.count {\ncase 0:\n    print(\"warning: Cake.app not running, Cakefile changes will not take effect\")\ncase 1:\n    guard let bundle = apps[0].bundleURL else {\n        print(\"Failed to obtain Cake.app location\")\n        exit(1)\n    }\n    guard let projectDir = ProcessInfo.processInfo.environment[\"PROJECT_DIR\"] else {\n        print(\"Failed to obtain PROJECT_DIR\")\n        exit(2)\n    }\n    let path = bundle.appendingPathComponent(\"Contents/MacOS/cake-build\").path\n    let task = Process()\n    task.launchPath = path\n    task.arguments = [String(apps[0].processIdentifier), projectDir]\n    try task.run()\n    task.waitUntilExit()\n    exit(task.terminationStatus)\ndefault:\n    print(\"error: More than one instance of Cake.app is running\")\n    exit(3)\n}\n";
+	showEnvVarsInLog = 0;
+};
+B0CCAA5D1D192F6963E1F5560239A386 /* Determine Version */ = {
+	isa = PBXShellScriptBuildPhase;
+	buildActionMask = 2147483647;
+	files = (
+	);
+	inputPaths = (
+	);
+	name = "Determine Version";
+	outputPaths = (
+		Version.xcconfig,
+	);
+	runOnlyForDeploymentPostprocessing = 0;
+	shellPath = /bin/sh;
+	shellScript = "v=$(git describe --tags --always --abbrev=0)\nn=$(git rev-list HEAD --count)\n\nif [[ -z $v ]]; then v=\"0.0.0\"; fi\nif [[ -z $n ]]; then n=\"0\"; fi\n\necho \"CURRENT_PROJECT_VERSION = $n\" > Version.xcconfig\necho \"SEMANTIC_PROJECT_VERSION = $v\" >> Version.xcconfig\necho \"SEMANTIC_PROJECT_VERSION[config=Debug] = $v-debug\" >> Version.xcconfig\n";
+	showEnvVarsInLog = 0;
+};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+86204B913285479790C8B40218A6D01E /* Sources */ = {
+	isa = PBXSourcesBuildPhase;
+	buildActionMask = 2147483647;
+	files = (
+		6A041CF38BC28A5262F4A2C130435DA8 /* Batter.swift in Sources */,
+	);
+	runOnlyForDeploymentPostprocessing = 0;
+};
+86C92547D90D6B0C6402CF6C64B95207 /* Sources */ = {
+	isa = PBXSourcesBuildPhase;
+	buildActionMask = 2147483647;
+	files = (
+		D7B65D75894927076AFE39402F291160 /* Foo.swift in Sources */,
+	);
+	runOnlyForDeploymentPostprocessing = 0;
+};
+9D57241684611D5226E52EBD3A97727C /* Sources */ = {
+	isa = PBXSourcesBuildPhase;
+	buildActionMask = 2147483647;
+	files = (
+		02A46975791D4B6AF393E02BFC7B4FA7 /* Cake.swift in Sources */,
+	);
+	runOnlyForDeploymentPostprocessing = 0;
+};
+A55DDFC1E192780D65C32457CB5F07F8 /* Sources */ = {
+	isa = PBXSourcesBuildPhase;
+	buildActionMask = 2147483647;
+	files = (
+		56DFD2E22C495FA82E39886F365DC33A /* Cakefile.swift in Sources */,
+	);
+	runOnlyForDeploymentPostprocessing = 0;
+};
+A5B608800EDF31C9BCB0DDC70CABA40D /* Sources */ = {
+	isa = PBXSourcesBuildPhase;
+	buildActionMask = 2147483647;
+	files = (
+		F62F83ADADB25FD51189D1DAADF508A0 /* Base.swift in Sources */,
+	);
+	runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+3366830391752771A1D8AFE2C77B8DC4 /* PBXTargetDependency */ = {
+	isa = PBXTargetDependency;
+	name = Versionator;
+	target = 27CCC44DFA86333E66FEE34EA8063784 /* Versionator */;
+	targetProxy = F312C1044F70834D556FB7F4802D1893 /* PBXContainerItemProxy */;
+};
+3DE1E19BE239D595351ADC161F5E0410 /* PBXTargetDependency */ = {
+	isa = PBXTargetDependency;
+	name = "Batter·Bakeware";
+	target = A54CE7F62F35E2AB6B8CD4751BF034E0 /* Batter·Bakeware */;
+	targetProxy = DDC422CFA96DC602F1758690E2D392B8 /* PBXContainerItemProxy */;
+};
+A8CC1976609BCEA95BCD6964C14D8FAD /* PBXTargetDependency */ = {
+	isa = PBXTargetDependency;
+	name = "Batter·Bar";
+	target = 7E9BC1BE492C7CB96A7537F0974F24C4 /* Batter·Bar */;
+	targetProxy = 47DED4C504B4975EA75FEBB71CD945AC /* PBXContainerItemProxy */;
+};
+B08CB108B3829CEB56F206FF9312F38B /* PBXTargetDependency */ = {
+	isa = PBXTargetDependency;
+	name = Cakefile;
+	target = 818A4854C95B333066E8C4A9D0FE3104 /* Cakefile */;
+	targetProxy = 1433A103D3787DDCA73013B05C6230DC /* PBXContainerItemProxy */;
+};
+CB56305824BFCA6B67740F6043A4B9E2 /* PBXTargetDependency */ = {
+	isa = PBXTargetDependency;
+	name = Batter;
+	target = F5D94DE7A2DF28D8FD6E0C310044455E /* Batter */;
+	targetProxy = 756891CE29B59469D117CB86600830B4 /* PBXContainerItemProxy */;
+};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+2844F622FC5B65DAF12AC70D4AFF5996 /* Debug */ = {
+	isa = XCBuildConfiguration;
+	buildSettings = {
+		SDKROOT = macosx;
+		SUPPORTED_PLATFORMS = (
+			macosx,
+		);
+	};
+	name = Debug;
+};
+3C151CD4207B1965E3DCF0EF19B3006A /* Debug */ = {
+	isa = XCBuildConfiguration;
+	buildSettings = {
+		PRODUCT_NAME = Bar;
+	};
+	name = Debug;
+};
+5B0253CF35CA61DC4C802193B10AE866 /* Debug */ = {
+	isa = XCBuildConfiguration;
+	buildSettings = {
+		LD = /usr/bin/true;
+		OTHER_SWIFT_FLAGS = (
+			"-I",
+			"$(HOME)/Library/Developer/Cake/DerivedData/$(XCODE_PRODUCT_BUILD_VERSION)/lib",
+			"-L",
+			"$(HOME)/Library/Developer/Cake/DerivedData/$(XCODE_PRODUCT_BUILD_VERSION)/lib",
+		);
+		PRODUCT_MODULE_NAME = Script;
+		PRODUCT_NAME = CakefileScript;
+		SDKROOT = macosx;
+		SUPPORTED_PLATFORMS = (
+			macosx,
+		);
+	};
+	name = Debug;
+};
+5FC53AE9CFF58581733A36E95078B6B0 /* Release */ = {
+	isa = XCBuildConfiguration;
+	buildSettings = {
+		PRODUCT_NAME = Bakeware;
+	};
+	name = Release;
+};
+BF01A86C4D19E080F58AF28A3610DF80 /* Release */ = {
+	isa = XCBuildConfiguration;
+	buildSettings = {
+		LD = /usr/bin/true;
+		OTHER_SWIFT_FLAGS = (
+			"-I",
+			"$(HOME)/Library/Developer/Cake/DerivedData/$(XCODE_PRODUCT_BUILD_VERSION)/lib",
+			"-L",
+			"$(HOME)/Library/Developer/Cake/DerivedData/$(XCODE_PRODUCT_BUILD_VERSION)/lib",
+		);
+		PRODUCT_MODULE_NAME = Script;
+		PRODUCT_NAME = CakefileScript;
+		SDKROOT = macosx;
+		SUPPORTED_PLATFORMS = (
+			macosx,
+		);
+	};
+	name = Release;
+};
+C01BD67412F7D01E7E37440909A3CB04 /* Release */ = {
+	isa = XCBuildConfiguration;
+	buildSettings = {
+		CLANG_ENABLE_OBJC_WEAK = YES;
+		CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+		CLANG_WARN_BOOL_CONVERSION = YES;
+		CLANG_WARN_COMMA = YES;
+		CLANG_WARN_CONSTANT_CONVERSION = YES;
+		CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+		CLANG_WARN_EMPTY_BODY = YES;
+		CLANG_WARN_ENUM_CONVERSION = YES;
+		CLANG_WARN_INFINITE_RECURSION = YES;
+		CLANG_WARN_INT_CONVERSION = YES;
+		CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+		CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+		CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+		CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+		CLANG_WARN_STRICT_PROTOTYPES = YES;
+		CLANG_WARN_SUSPICIOUS_MOVE = YES;
+		CLANG_WARN_UNREACHABLE_CODE = YES;
+		CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+		COMBINE_HIDPI_IMAGES = YES;
+		COPY_PHASE_STRIP = YES;
+		DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+		ENABLE_STRICT_OBJC_MSGSEND = YES;
+		GCC_NO_COMMON_BLOCKS = YES;
+		GCC_OPTIMIZATION_LEVEL = s;
+		GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+		GCC_WARN_ABOUT_RETURN_TYPE = YES;
+		GCC_WARN_UNDECLARED_SELECTOR = YES;
+		GCC_WARN_UNINITIALIZED_AUTOS = YES;
+		GCC_WARN_UNUSED_FUNCTION = YES;
+		GCC_WARN_UNUSED_VARIABLE = YES;
+		IPHONEOS_DEPLOYMENT_TARGET = 12.2.0;
+		PRODUCT_NAME = "$(TARGET_NAME)";
+		SDKROOT = iphoneos;
+		SKIP_INSTALL = YES;
+		SUPPORTED_PLATFORMS = (
+			iphoneos,
+			iphonesimulator,
+		);
+		SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+			Cake,
+		);
+		SWIFT_COMPILATION_MODE = wholemodule;
+		SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+		SWIFT_VERSION = 5.0;
+		USE_HEADERMAP = NO;
+	};
+	name = Release;
+};
+CC29803FE70FB3F4C9C8DC584F373639 /* Release */ = {
+	isa = XCBuildConfiguration;
+	buildSettings = {
+		PRODUCT_NAME = Bar;
+	};
+	name = Release;
+};
+F6BCBDB02D5733D803C90FCC60A48E00 /* Release */ = {
+	isa = XCBuildConfiguration;
+	buildSettings = {
+		SDKROOT = macosx;
+		SUPPORTED_PLATFORMS = (
+			macosx,
+		);
+	};
+	name = Release;
+};
+F7770844F3B732A8F6817F4CB5DE795E /* Debug */ = {
+	isa = XCBuildConfiguration;
+	buildSettings = {
+		CLANG_ENABLE_OBJC_WEAK = YES;
+		CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+		CLANG_WARN_BOOL_CONVERSION = YES;
+		CLANG_WARN_COMMA = YES;
+		CLANG_WARN_CONSTANT_CONVERSION = YES;
+		CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+		CLANG_WARN_EMPTY_BODY = YES;
+		CLANG_WARN_ENUM_CONVERSION = YES;
+		CLANG_WARN_INFINITE_RECURSION = YES;
+		CLANG_WARN_INT_CONVERSION = YES;
+		CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+		CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+		CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+		CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+		CLANG_WARN_STRICT_PROTOTYPES = YES;
+		CLANG_WARN_SUSPICIOUS_MOVE = YES;
+		CLANG_WARN_UNREACHABLE_CODE = YES;
+		CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+		COMBINE_HIDPI_IMAGES = YES;
+		COPY_PHASE_STRIP = NO;
+		DEBUG_INFORMATION_FORMAT = dwarf;
+		ENABLE_NS_ASSERTIONS = YES;
+		ENABLE_STRICT_OBJC_MSGSEND = YES;
+		ENABLE_TESTABILITY = YES;
+		GCC_NO_COMMON_BLOCKS = YES;
+		GCC_OPTIMIZATION_LEVEL = 0;
+		GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+		GCC_WARN_ABOUT_RETURN_TYPE = YES;
+		GCC_WARN_UNDECLARED_SELECTOR = YES;
+		GCC_WARN_UNINITIALIZED_AUTOS = YES;
+		GCC_WARN_UNUSED_FUNCTION = YES;
+		GCC_WARN_UNUSED_VARIABLE = YES;
+		IPHONEOS_DEPLOYMENT_TARGET = 12.2.0;
+		ONLY_ACTIVE_ARCH = YES;
+		PRODUCT_NAME = "$(TARGET_NAME)";
+		SDKROOT = iphoneos;
+		SKIP_INSTALL = YES;
+		SUPPORTED_PLATFORMS = (
+			iphoneos,
+			iphonesimulator,
+		);
+		SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+			Cake,
+			DEBUG,
+		);
+		SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+		SWIFT_VERSION = 5.0;
+		USE_HEADERMAP = NO;
+	};
+	name = Debug;
+};
+FE630A19B4C83B5CC56A6C63A8BFB8E6 /* Debug */ = {
+	isa = XCBuildConfiguration;
+	buildSettings = {
+		PRODUCT_NAME = Bakeware;
+	};
+	name = Debug;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+3A3934967D7790F017425C98A64CD375 /* Build configuration list for PBXNativeTarget "Cakefile·Completion" */ = {
+	isa = XCConfigurationList;
+	buildConfigurations = (
+		5B0253CF35CA61DC4C802193B10AE866 /* Debug */,
+		BF01A86C4D19E080F58AF28A3610DF80 /* Release */,
+	);
+	defaultConfigurationIsVisible = 0;
+};
+E0F10CB5FB220A409F0B4195E6AAF020 /* Build configuration list for PBXNativeTarget "Batter·Bakeware" */ = {
+	isa = XCConfigurationList;
+	buildConfigurations = (
+		FE630A19B4C83B5CC56A6C63A8BFB8E6 /* Debug */,
+		5FC53AE9CFF58581733A36E95078B6B0 /* Release */,
+	);
+	defaultConfigurationIsVisible = 0;
+};
+E7FAEEC4302D535402308E4CA6048DBC /* Build configuration list for PBXProject "Cake" */ = {
+	isa = XCConfigurationList;
+	buildConfigurations = (
+		F7770844F3B732A8F6817F4CB5DE795E /* Debug */,
+		C01BD67412F7D01E7E37440909A3CB04 /* Release */,
+	);
+	defaultConfigurationIsVisible = 0;
+	defaultConfigurationName = Release;
+};
+F22CC39916A066C6C8B1ECE372A56745 /* Build configuration list for PBXNativeTarget "Batter·Bar" */ = {
+	isa = XCConfigurationList;
+	buildConfigurations = (
+		3C151CD4207B1965E3DCF0EF19B3006A /* Debug */,
+		CC29803FE70FB3F4C9C8DC584F373639 /* Release */,
+	);
+	defaultConfigurationIsVisible = 0;
+};
+FB1419C517BF03EBE4B57BA190D11DA2 /* Build configuration list for PBXAggregateTarget "Cakefile" */ = {
+	isa = XCConfigurationList;
+	buildConfigurations = (
+		2844F622FC5B65DAF12AC70D4AFF5996 /* Debug */,
+		F6BCBDB02D5733D803C90FCC60A48E00 /* Release */,
+	);
+	defaultConfigurationIsVisible = 0;
+};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAA9F9B983CE55D38B2F125BAD56FC0E /* Project object */;
+}

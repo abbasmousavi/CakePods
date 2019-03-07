@@ -1,0 +1,5 @@
+
+/.cake/swift-pm
+/.cake/*.json
+/.cake/Package.swift
+/.cake/Version.xcconfig

@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import Module1
 
 class ViewController: UIViewController {
+    
+    let test: Foo? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
